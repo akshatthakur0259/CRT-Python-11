@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.QRCode()
+a="hello"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_color="black",black_color="white")
+res.save("qr.png")
+print("Created QR code successfully")
