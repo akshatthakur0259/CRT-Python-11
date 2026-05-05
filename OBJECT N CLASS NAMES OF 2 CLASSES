@@ -1,0 +1,37 @@
+contry="INDIA"
+class ace:
+    col="ACE COLLAGE"
+    def show_values(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d 
+    def display(self):
+        print("1. NAME : ", self.name)
+        print("2. MARKS : ", self.tot)
+        print("3. COLLAGE : ", ace.col)
+        print("4. CONTRY : ", contry)
+
+class bvit:
+    col="BVIT COLLAGE"
+    def show_num(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d 
+    def show(self):
+        print("1. NAME : ", self.name)
+        print("2. MARKS : ", self.tot)
+        print("3. COLLAGE : ",bvit.col)
+        print("4. CONTRY : ", contry)
+    
+
+
+a=ace()
+a2=ace()
+b=bvit()
+b2=bvit()
+a.show_values(22,33,44,"Nihar")
+a2.show_values(33,44,55,"Baba")
+b.show_num(66,77,55,"giri")
+b2.show_num(77,88,11,"vamshi")
+a.display()
+a2.display()
+b.show()
+b2.show()
