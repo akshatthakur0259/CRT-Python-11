@@ -1,0 +1,12 @@
+#Is given number is prime or not.
+num=int(input("enter a number: "))
+factor=0
+for i in range(2,num):
+  if(num%i==0):
+    factor=factor+1
+if(factor==0):
+  print("{} is a prime Number".format(num))
+elif(num==1):
+  print("{} is neither prime number nor composite".format(num))
+else:
+  print("{} is not a prime number".format(num)
