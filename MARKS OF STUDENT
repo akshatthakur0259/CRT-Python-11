@@ -1,0 +1,7 @@
+a={"name":"kamesh","age":23,"marks":90}
+for i in a.items():
+  print(i)
+for i in a.keys():
+  print(i)
+for i in a.values():
+  print(i)
