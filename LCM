@@ -1,0 +1,8 @@
+#lcm
+a=int(input("ENter the num1:"))
+b=int(input("ENter the num2:"))
+l=max(a,b)
+while True:
+  if l%a==0 and l%b==0:
+    print("LCM: ",l)
+    break
