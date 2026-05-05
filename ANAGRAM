@@ -1,0 +1,8 @@
+a=input("enter the string1:")
+b=input("enter the string2:")
+a1="".join(i for i in a if a.isalnum() )
+b1="".join(i for i in b if b.isalnum() )
+if sorted(a)==sorted(b):
+  print("Anagaram")
+else:
+  print("not Anagram")
